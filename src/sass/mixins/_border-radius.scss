@@ -45,8 +45,9 @@ $inherit: inherit !default;
 // 4. @mixin directive, border-radius with the four parameter.
 // Radius is set for all 4 sides.
 // to set the four properties:
-  // border-top-left-radius and border-top-right-radius,
-  // border-bottom-right-radius and border-bottom-left-radius.
+  // 4.1 - border-top-left-radius and 4.2 - border-top-right-radius,
+  // 4.3 - border-bottom-right-radius and 4.4 - border-bottom-left-radius.
+  //                  4.1      |  4.2     |    4.3       |    4.4
 @mixin border-radius($top-left, $top-right, $bottom-right, $bottom-left) {
   -webkit-border-radius: $top-left, $top-right, $bottom-right, $bottom-left;
      -moz-border-radius: $top-left, $top-right, $bottom-right, $bottom-left;
