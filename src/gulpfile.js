@@ -3,6 +3,8 @@
  * https://github.com/gulpjs/gulp | http://gulpjs.com/
  */
 
+'use strict';
+
 var gulp = require('gulp');
 
 // DEFINING TASKS
