@@ -11,3 +11,7 @@ $enable-prefixes: false !default;
 $prefix-webkit: '-webkit-';
 $prefix-moz:    '-moz-';
 $prefix-opera:  '-o-';
+
+// Animation Defaults:
+$default-animation-duration:       1s !default;
+$default-iteration-count:    infinite !default;
