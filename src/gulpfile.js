@@ -1,6 +1,8 @@
 /*!
  * Gulp: The streaming build system.
  * https://github.com/gulpjs/gulp | http://gulpjs.com/
+ * @author  : Prabhat Kumar, http://prabhatkumar.org/
+ * @date    : 02-July-2015
  */
 
 'use strict';
