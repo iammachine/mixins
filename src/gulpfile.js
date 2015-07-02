@@ -5,11 +5,12 @@
 
 'use strict';
 
-var gulp               = require('gulp');
-var sass          = require('gulp-sass');
-var concat      = require('gulp-concat');
-var uglify      = require('gulp-uglify');
-var sourcemaps = require('gulp-sourcemaps');
+var gulp                   = require('gulp');
+var sass              = require('gulp-sass');
+var concat          = require('gulp-concat');
+var uglify          = require('gulp-uglify');
+var sourcemaps  = require('gulp-sourcemaps');
+var del                     = require('del');
 
 // DEFINING TASKS
 // To define a task, the gulp.task() function is used.
