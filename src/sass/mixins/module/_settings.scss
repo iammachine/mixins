@@ -1,1 +1,13 @@
 // Common Default Settings.
+
+// [Vendor Prefixes]:
+
+// NOTE:
+// 1. Set this to true, if you want vendor prefixes for webkit, mozilla, and opera.
+// 2. Leave this false, if you're already using something awesome like Autoprefixer.
+$enable-prefixes: false !default;
+
+// Vendor Prefix Type:
+$prefix-webkit: '-webkit-';
+$prefix-moz:    '-moz-';
+$prefix-opera:  '-o-';
