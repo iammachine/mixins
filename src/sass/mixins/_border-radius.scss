@@ -1,1 +1,13 @@
 // Border Radius SASS Mixins.
+// SASS Parametric Mixins.
+// 1. @mixin directive, border-radius with $radius as parameter.
+
+// The syntax of the first radius allows one to four values.
+// Radius is set for all 4 sides.
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+// e.g. : .box { @include border-radius(10px); }
