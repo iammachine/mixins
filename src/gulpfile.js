@@ -5,7 +5,10 @@
 
 'use strict';
 
-var gulp = require('gulp');
+var gulp               = require('gulp');
+var sass          = require('gulp-sass');
+var concat      = require('gulp-concat');
+var uglify      = require('gulp-uglify');
 
 // DEFINING TASKS
 // To define a task, the gulp.task() function is used.
