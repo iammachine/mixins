@@ -40,3 +40,17 @@ $inherit: inherit !default;
           border-radius: $radius;
 }
 // e.g. : .box { @include border-radius(10px); }
+
+
+// 4. @mixin directive, border-radius with the four parameter.
+// Radius is set for all 4 sides.
+// to set the four properties:
+  // border-top-left-radius and border-top-right-radius,
+  // border-bottom-right-radius and border-bottom-left-radius.
+@mixin border-radius($top-left, $top-right, $bottom-right, $bottom-left) {
+  -webkit-border-radius: $top-left, $top-right, $bottom-right, $bottom-left;
+     -moz-border-radius: $top-left, $top-right, $bottom-right, $bottom-left;
+      -ms-border-radius: $top-left, $top-right, $bottom-right, $bottom-left;
+          border-radius: $top-left, $top-right, $bottom-right, $bottom-left;
+}
+// e.g. : .box { @include border-radius(10px, 10px, 5px, 5px); }
