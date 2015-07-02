@@ -20,3 +20,8 @@ var del                     = require('del');
 gulp.task('greet', function(){
   console.log('Hello, World!');
 });
+
+// DEFINING TASKS for SASS
+// To 1. build and 2. minify
+gulp.task('sass', function(){
+});
