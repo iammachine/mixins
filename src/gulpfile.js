@@ -1,4 +1,6 @@
 /*!
+ * @Mixins: repository for every mixins.
+ * _____________________________________
  * Gulp: The streaming build system.
  * https://github.com/gulpjs/gulp | http://gulpjs.com/
  * @author  : Prabhat Kumar, http://prabhatkumar.org/
@@ -10,6 +12,7 @@
 var gulp                   = require('gulp');
 var sass              = require('gulp-sass');
 var concat          = require('gulp-concat');
+var scsslint     = require('gulp-scss-lint');
 var uglify          = require('gulp-uglify');
 var sourcemaps  = require('gulp-sourcemaps');
 var connect        = require('gulp-connect');
