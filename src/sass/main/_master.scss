@@ -1,1 +1,8 @@
 // Master, for complicated sass functions.
+// @author  : Prabhat Kumar
+
+// Strip Unit Function:
+//    to strip the unit from a number.
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
