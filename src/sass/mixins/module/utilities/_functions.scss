@@ -1,1 +1,14 @@
 // Utilities for SASS complicated functions
+// @author  : Prabhat Kumar
+
+// [Using SASS Functions]
+// @function directive
+
+// [1]The formula for calculating the percent value for a width,
+//    to achieve a fluid layout based on a reference design made using pixels.
+//    [ target / context = result ]
+//    So, if a container that's 1000px wide, and a module that's designed to be 650px wide, that calculation becomes:
+//    e.g., 650px / 1000px = 65%
+@function calc-percent($target, $container) {
+  @return ($target / $container) * 100%;
+}
