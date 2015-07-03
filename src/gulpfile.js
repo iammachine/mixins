@@ -12,6 +12,7 @@ var sass              = require('gulp-sass');
 var concat          = require('gulp-concat');
 var uglify          = require('gulp-uglify');
 var sourcemaps  = require('gulp-sourcemaps');
+var connect        = require('gulp-connect');
 var del                     = require('del');
 
 // DEFINING TASKS
