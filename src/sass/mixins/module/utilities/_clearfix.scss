@@ -1,0 +1,12 @@
+// micro-clearfix-hack
+// The clearfix hack is a popular way to contain floats without resorting to using presentational markup.
+// Use of both the :before and :after pseudo-elements.
+// Note: http://nicolasgallagher.com/micro-clearfix-hack/
+
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
