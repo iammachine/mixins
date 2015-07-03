@@ -15,6 +15,13 @@ var sourcemaps  = require('gulp-sourcemaps');
 var connect        = require('gulp-connect');
 var del                     = require('del');
 
+
+// SETTINGS
+var paths = {
+  src   :'',
+  dist  :''
+};
+
 // DEFINING TASKS
 // To define a task, the gulp.task() function is used.
 // This function takes two attributes: the task’s name and a function to run.
