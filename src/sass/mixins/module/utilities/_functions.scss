@@ -12,3 +12,8 @@
 @function calc-percent($target, $container) {
   @return ($target / $container) * 100%;
 }
+
+// [2] To create a namespaced class name.
+@function namespace($name) {
+    @return $name-prefix + $name;
+}
