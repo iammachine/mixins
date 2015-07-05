@@ -28,6 +28,7 @@ var notify          = require("gulp-notify");
 var rename          = require("gulp-rename");
 var replace        = require('gulp-replace');
 var bytediff      = require('gulp-bytediff');
+var chmod            = require('gulp-chmod');
 
 // SETTINGS
 var paths = {
