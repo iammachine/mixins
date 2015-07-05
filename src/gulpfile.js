@@ -19,6 +19,7 @@ var sourcemaps  = require('gulp-sourcemaps');
 var connect        = require('gulp-connect');
 var jade              = require('gulp-jade');
 var htmlmin        = require('gulp-htmlmin');
+var gulpif              = require('gulp-if');
 var del                     = require('del');
 
 
