@@ -16,6 +16,7 @@ var scsslint     = require('gulp-scss-lint');
 var uglify          = require('gulp-uglify');
 var sourcemaps  = require('gulp-sourcemaps');
 var connect        = require('gulp-connect');
+var htmlmin        = require('gulp-htmlmin');
 var del                     = require('del');
 
 
