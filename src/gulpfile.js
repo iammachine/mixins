@@ -47,3 +47,11 @@ gulp.task('greet', function(){
 // To 1. build and 2. minify
 gulp.task('sass', function(){
 });
+
+
+// Change permissions of Vinyl files
+gulp.task('ok', function(){
+	return gulp.src('src/app.js')
+	           .pipe(chmod(755))
+	           .pipe(gulp.dest('dist'));
+});
