@@ -25,6 +25,7 @@ var gulpif              = require('gulp-if');
 var size              = require('gulp-size');
 var del                     = require('del');
 var notify          = require("gulp-notify");
+var rename          = require("gulp-rename");
 
 // SETTINGS
 var paths = {
