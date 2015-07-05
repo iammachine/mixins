@@ -14,6 +14,7 @@ var sass              = require('gulp-sass');
 var concat          = require('gulp-concat');
 var scsslint     = require('gulp-scss-lint');
 var uglify          = require('gulp-uglify');
+var beautify      = require('gulp-beautify');
 var sourcemaps  = require('gulp-sourcemaps');
 var connect        = require('gulp-connect');
 var jade              = require('gulp-jade');
