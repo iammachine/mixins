@@ -27,6 +27,7 @@ var del                     = require('del');
 var notify          = require("gulp-notify");
 var rename          = require("gulp-rename");
 var replace        = require('gulp-replace');
+var bytediff      = require('gulp-bytediff');
 
 // SETTINGS
 var paths = {
