@@ -46,6 +46,10 @@ gulp.task('greet', function(){
 // DEFINING TASKS for SASS
 // To 1. build and 2. minify
 gulp.task('sass', function(){
+	gulp.src('sass/**/*.scss')
+	    .pipe(sass.sync().on('error', sass.logError))
+	    .pipe(sass({outputStyle: 'compressed'}))
+	    .pipe(gulp.dest('/css/'));
 });
 
 
