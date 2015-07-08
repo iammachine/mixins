@@ -5,3 +5,11 @@
 // Element  | Description
 // <html>   | The HTML Root Element (<html>) represents the root of an HTML document.
 //            All other elements must be descendants of this element.
+
+// Attributes: manifest and xmlns
+// xmlns: Specifies the XML Namespace of the document.
+// Default value is "http://www.w3.org/1999/xhtml". This is required in XHTML, and optional in HTML5.
+
+html {
+  
+}
