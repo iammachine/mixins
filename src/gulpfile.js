@@ -8,7 +8,7 @@
  */
 
 'use strict';
-
+// required modules
 var gulp                   = require('gulp');
 var sass              = require('gulp-sass');
 var concat          = require('gulp-concat');
@@ -20,6 +20,7 @@ var connect        = require('gulp-connect');
 var jade              = require('gulp-jade');
 var htmlmin        = require('gulp-htmlmin');
 var less              = require('gulp-less');
+// utility modules
 var path                   = require('path');
 var gulpif              = require('gulp-if');
 var size              = require('gulp-size');
@@ -58,7 +59,7 @@ gulp.task('sass:watch', function(){
 
 // Change permissions of Vinyl files
 gulp.task('ok', function(){
-	return gulp.src('src/app.js')
-	           .pipe(chmod(755))
-	           .pipe(gulp.dest('dist'));
+  return gulp.src('src/app.js')
+	     .pipe(chmod(755))
+	     .pipe(gulp.dest('dist'));
 });
